@@ -1,0 +1,147 @@
+
+.hover{
+
+    min-height:320px;
+
+    background:#161616;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hover__content{
+
+    width:90%;
+    max-width:1200px;
+}
+
+.hover__nav{
+
+    display:flex;
+    gap:40px;
+}
+
+.hover__link{
+
+    color:white;
+
+    text-decoration:none;
+
+    position:relative;
+
+    padding-bottom:10px;
+
+    font-size:14px;
+
+    transition:.3s;
+}
+
+.hover__link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:100%;
+    height:3px;
+
+    background:#6f47ff;
+
+    transform:scaleX(1);
+
+    transform-origin:left;
+
+    transition:.3s;
+}
+
+.hover__link:hover{
+
+    color:#a78bfa;
+}
+
+
+.hover__projects{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-top:28px;
+}
+
+.hover__project{
+
+    color:#8f8f8f;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:14px;
+
+    transition:.3s;
+}
+
+.hover__project i{
+
+    color:#6f47ff;
+}
+
+.hover__project:hover{
+
+    color:white;
+}
+
+.hover__mail{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    color:#6f47ff;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.hover__mail:hover{
+
+    color:#9d7bff;
+}
+
+
+.hover__social{
+
+    display:flex;
+
+    gap:40px;
+
+    margin-top:35px;
+}
+
+.hover__social a{
+
+    color:white;
+
+    font-size:22px;
+
+    transition:.3s;
+}
+
+.hover__social a:hover{
+
+    color:#6f47ff;
+
+    transform:translateY(-3px);
+}

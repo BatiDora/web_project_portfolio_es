@@ -1,0 +1,56 @@
+.footer{
+
+    background:#141414;
+
+    padding:90px 0;
+
+    text-align:center;
+}
+
+.footer__content{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+.footer__title{
+
+    font-size:4rem;
+
+    margin-bottom:25px;
+}
+
+.footer__mail{
+
+    color:#7c5cff;
+
+    text-decoration:none;
+
+    font-size:1.4rem;
+}
+
+.footer__social{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:60px;
+
+    margin-top:45px;
+}
+
+.footer__social img{
+
+    width:28px;
+
+    transition:.3s;
+}
+
+.footer__social img:hover{
+
+    transform:translateY(-4px);
+}
