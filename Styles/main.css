@@ -75,9 +75,46 @@
     padding-bottom:6px;
 }
 
+.main__photo{
+     position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.main__photo::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+
+    height:520px;
+
+    border-radius:50%;
+
+    background:radial-gradient(
+    circle,
+    rgba(114,94,255,.45) 0%,
+    rgba(114,94,255,.22) 30%,
+    rgba(114,94,255,.10) 50%,
+    rgba(20,20,20,0) 72%
+);
+
+    z-index:0;
+}
+
 .main__photo img{
 
-    width:350px;
+   width:350px;
+
+    position:relative;
+
+    z-index:1;
 }
 
 
@@ -104,9 +141,19 @@
 
 .skills__icons img{
 
-    width:60px;
+    width:42px;
+
+    height:42px;
+
+    object-fit:contain;
+
+    transition:.3s;
 }
 
+.skills__icons img:hover{
+
+    transform:translateY(-6px) scale(1.08);
+}
 
 .projects{
 
