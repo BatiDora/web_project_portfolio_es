@@ -42,7 +42,6 @@ El sitio cuenta con un diseño moderno, responsivo y enfocado en ofrecer una exp
 
 Puedes visitar el proyecto aquí:
 
-https://TU-USUARIO.github.io/TU-REPOSITORIO/
-
+https://github.com/BatiDora/web_project_portfolio_es
 
 Desarrollado por **Roberto Villasana**.
