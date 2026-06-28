@@ -64,6 +64,8 @@
 
 .main__button{
 
+    position:relative;
+
     display:inline-block;
 
     text-decoration:none;
@@ -72,13 +74,42 @@
 
     font-weight:600;
 
-    border-bottom:4px solid #7c5cff;
-
-    padding-bottom:6px;
+    padding-bottom:10px;
 
     transition:
         transform .25s ease,
         color .25s ease;
+}
+
+.main__button::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:100%;
+
+    height:4px;
+
+    background: linear-gradient(
+    90deg,
+    #6d28d9 0%,
+    #7c3aed 20%,
+    #8b5cf6 45%,
+    #7c5cff 65%,
+    #6d8cff 85%,
+    #8cb8ff 100%
+);
+
+box-shadow:
+    0 0 3px rgba(124,92,255,.35),
+    0 0 8px rgba(124,92,255,.15);
+
+    border-radius:10px;
 }
 
 .main__button:hover{
@@ -220,7 +251,7 @@
 .project__image{
 
     width:100%;
-    
+
     aspect-ratio:16/9;
 
     object-fit:cover;
@@ -299,7 +330,21 @@
     width:100%;
     height:3px;
 
-    background:#7c5cff;
+    background:linear-gradient(
+    90deg,
+    #6d28d9 0%,
+    #7c3aed 20%,
+    #8b5cf6 45%,
+    #7c5cff 65%,
+    #6d8cff 85%,
+    #8cb8ff 100%
+);
+
+border-radius:8px;
+
+box-shadow:
+    0 0 3px rgba(124,92,255,.35),
+    0 0 8px rgba(124,92,255,.15);
 
     transform:scaleX(0);
 
