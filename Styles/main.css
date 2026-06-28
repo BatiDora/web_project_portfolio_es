@@ -121,13 +121,17 @@ box-shadow:
 
 
 .main__photo{
-     position: relative;
+    position: relative;
 
-    display: flex;
+    display:flex;
 
-    justify-content: center;
+    justify-content:center;
 
-    align-items: center;
+    align-items:center;
+
+    width:100%;
+
+    max-width:387px;
 }
 
 .main__photo::before{
@@ -155,9 +159,13 @@ box-shadow:
 
 .main__photo img{
 
-    width:min(100%,350px);
+    width:100%;
 
-    height:auto;
+    aspect-ratio:387 / 500;
+
+    object-fit:cover;
+
+    border-radius:18px;
 
     display:block;
 
@@ -246,6 +254,27 @@ box-shadow:
     overflow:hidden;
 
     border-radius:12px;
+}
+
+.project__tech{
+
+    display:flex;
+    gap:10px;
+
+    padding:15px 20px 0;
+}
+
+.project__tech img{
+
+    width:32px;
+    height:32px;
+
+    object-fit:contain;
+}
+
+.project__tech img:hover{
+
+    transform:translateY(-3px) scale(1.1);
 }
 
 .project__image{
