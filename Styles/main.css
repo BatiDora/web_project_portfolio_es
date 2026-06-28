@@ -4,7 +4,7 @@
 
     color:white;
 
-    padding:80px 0;
+    padding:clamp(40px,7vw,80px) 0;
 }
 
 .main__content{
@@ -25,12 +25,12 @@
 
     align-items:center;
 
-    gap:80px;
+    gap:clamp(30px,6vw,80px);
 }
 
 .main__title{
 
-    font-size:5rem;
+    font-size:clamp(2.8rem,6vw,5rem);
 
     font-weight:800;
 
@@ -64,6 +64,8 @@
 
 .main__button{
 
+    display:inline-block;
+
     text-decoration:none;
 
     color:white;
@@ -73,7 +75,19 @@
     border-bottom:4px solid #7c5cff;
 
     padding-bottom:6px;
+
+    transition:
+        transform .25s ease,
+        color .25s ease;
 }
+
+.main__button:hover{
+
+    transform:scale(1.08);
+
+    color:#c7b5ff;
+}
+
 
 .main__photo{
      position: relative;
@@ -91,9 +105,9 @@
 
     position:absolute;
 
-    width:520px;
+    width:min(90vw,520px);
 
-    height:520px;
+    height:min(90vw,520px);
 
     border-radius:50%;
 
@@ -110,7 +124,11 @@
 
 .main__photo img{
 
-   width:350px;
+    width:min(100%,350px);
+
+    height:auto;
+
+    display:block;
 
     position:relative;
 
@@ -133,6 +151,8 @@
 .skills__icons{
 
     display:flex;
+
+    flex-wrap:wrap;
 
     justify-content:space-between;
 
@@ -179,6 +199,12 @@
 .project{
 
     background:#222;
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
 }
 
 .project__image{

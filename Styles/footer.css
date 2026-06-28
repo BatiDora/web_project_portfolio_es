@@ -6,7 +6,7 @@
 
     background:#141414;
 
-    padding:90px 0;
+    padding:clamp(50px,7vw,90px) 0;
 
     text-align:center;
 }
@@ -63,11 +63,32 @@
 
 .footer__mail{
 
+    display:inline-block;
+
     color:#7c5cff;
 
     text-decoration:none;
 
     font-size:1.4rem;
+
+    font-weight:500;
+
+    transition:
+        color .3s ease,
+        transform .3s ease,
+        font-weight .3s ease,
+        text-shadow .3s ease;
+}
+
+.footer__mail:hover{
+
+    color:#ffffff;
+
+    font-weight:700;
+
+    transform:scale(1.03);
+
+    animation:footerGlow 1.5s ease-in-out infinite;
 }
 
 .footer__social{
