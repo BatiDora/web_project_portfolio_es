@@ -56,12 +56,16 @@
 
 .footer__title{
 
+    font-family:"Archivo Black", sans-serif;
+
     font-size:4rem;
 
     margin-bottom:25px;
 }
 
 .footer__mail{
+
+    font-family:"Open Sans", sans-serif;
 
     display:inline-block;
 

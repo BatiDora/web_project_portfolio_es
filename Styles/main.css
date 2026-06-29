@@ -30,6 +30,8 @@
 
 .main__title{
 
+    font-family:"Archivo Black", sans-serif;
+
     font-size:clamp(2.8rem,6vw,5rem);
 
     font-weight:800;
@@ -39,12 +41,18 @@
 
 .main__subtitle{
 
+    font-family:"Open Sans", sans-serif;
+
+
     color:#777;
 
     margin:25px 0;
 }
 
 .main__description{
+
+    font-family:"Open Sans", sans-serif;
+
 
     line-height:1.6;
 
@@ -63,6 +71,9 @@
 }
 
 .main__button{
+
+    font-family:"Open Sans", sans-serif;
+
 
     position:relative;
 
@@ -182,6 +193,8 @@ box-shadow:
 
 .skills__title{
 
+    font-family:"Archivo Black", sans-serif;
+
     font-size:3rem;
 
     margin-bottom:60px;
@@ -224,6 +237,8 @@ box-shadow:
 }
 
 .projects__title{
+
+    font-family:"Archivo Black", sans-serif;
 
     font-size:3rem;
 
@@ -305,6 +320,8 @@ box-shadow:
 
 .project__title{
 
+    font-family:"Archivo Black", sans-serif;
+
     font-size:clamp(1.4rem,2.5vw,2rem);
 
     line-height:1.2;
@@ -313,6 +330,8 @@ box-shadow:
 }
 
 .project__description{
+
+    font-family:"Open Sans", sans-serif;
 
     font-size:clamp(.9rem,1.4vw,1rem);
 
@@ -335,6 +354,8 @@ box-shadow:
 }
 
 .project__links a{
+
+    font-family:"Open Sans", sans-serif;
 
     position:relative;
 

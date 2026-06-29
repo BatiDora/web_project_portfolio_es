@@ -25,6 +25,8 @@
 
 .hover__link{
 
+    font-family:"Open Sans", sans-serif;
+
     color:white;
 
     text-decoration:none;
@@ -92,6 +94,8 @@
 
 .hover__project{
 
+     font-family:"Open Sans", sans-serif;
+
     color:#8f8f8f;
 
     text-decoration:none;
@@ -118,6 +122,8 @@
 }
 
 .hover__mail{
+
+    font-family:"Open Sans", sans-serif;
 
     display:inline-block;
 
