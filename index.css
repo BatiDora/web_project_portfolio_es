@@ -1,8 +1,8 @@
-@import url(fonts.css);
-@import url(normalize.css);
-@import url(styles.css);
-@import url(main.css);
-@import url(footer.css);
+@import url("./Styles/fonts.css");
+@import url("./Styles/normalize.css");
+@import url("./Styles/styles.css");
+@import url("./Styles/main.css");
+@import url("./Styles/footer.css");
 
 *{
     margin:0;
