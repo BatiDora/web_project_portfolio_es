@@ -123,24 +123,36 @@
 
 .hover__mail{
 
-    font-family:"Open Sans", sans-serif;
-
     display:inline-block;
 
-    margin-top:35px;
+    margin-top:45px;
 
-    color:#6f47ff;
+    color:#7c5cff;
 
     text-decoration:none;
 
-    font-size:18px;
+    font-family:"Open Sans", sans-serif;
 
-    transition:.3s;
+    font-size:1.1rem;
+
+    font-weight:500;
+
+    transition:
+        color .3s ease,
+        transform .3s ease,
+        font-weight .3s ease,
+        text-shadow .3s ease;
 }
 
 .hover__mail:hover{
 
-    color:#9d7bff;
+    color:#ffffff;
+
+    font-weight:700;
+
+    transform:scale(1.03);
+
+    animation:footerGlow 1.5s ease-in-out infinite;
 }
 
 
