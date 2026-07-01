@@ -1,8 +1,7 @@
-@import url("./Styles/fonts.css");
-@import url("./Styles/normalize.css");
-@import url("./Styles/styles.css");
-@import url("./Styles/main.css");
-@import url("./Styles/footer.css");
+@import url("fonts.css");
+@import url("normalize.css");
+@import url("main.css");
+@import url("footer.css");
 
 *{
     margin:0;
@@ -27,7 +26,6 @@ body{
 @media screen and (min-width:1500px){
 
 .main__content,
-.hover__content,
 .footer__content{
 
     max-width:1400px;
@@ -119,36 +117,6 @@ body{
 
 @media screen and (max-width:665px){
 
-.hover{
-
-    padding:40px 0;
-}
-
-.hover__nav{
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:20px;
-}
-
-.hover__projects{
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:15px;
-}
-
-.hover__social{
-
-    justify-content:center;
-
-    flex-wrap:wrap;
-}
-
 .project{
 
     width:100%;
@@ -206,32 +174,10 @@ body{
 
 @media screen and (max-width:470px){
 
-.hover__content,
 .main__content,
 .footer__content{
 
     width:95%;
-}
-
-.hover__nav{
-
-    align-items:center;
-
-    text-align:center;
-}
-
-.hover__projects{
-
-    align-items:center;
-}
-
-.hover__mail{
-
-    font-size:16px;
-
-    text-align:center;
-
-    display:block;
 }
 
 .main__title{
